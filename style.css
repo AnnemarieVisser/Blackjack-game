@@ -1,27 +1,32 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #caffbf;
-  width: 10em;
+  width: 15em;
   margin: auto;
+  text-align: center;
 }
 
 .h1 {
-  text-align: center;
   color: #005f73;
+  border: 0.1em solid white;
+  padding: 0.2em;
 }
 
-.message {
+#message-el {
   text-align: center;
   font-style: italic;
   color: #001219;
 }
 
-#startbutton {
+.buttons {
+  text-align: center;
   background-color: #005f73;
   color: white;
+  border: 0.1em solid white;
   border-radius: 0.2em;
   -webkit-box-shadow: 0 0 2px black;
           box-shadow: 0 0 2px black;
   padding: 1em;
+  margin: 0.3em;
 }
 /*# sourceMappingURL=style.css.map */

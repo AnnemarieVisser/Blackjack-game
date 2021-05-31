@@ -33,6 +33,7 @@ function startTheGame() {
     console.log(message(sumOfFirstAndSecondCard));
     displayMessage.textContent = message(sumOfFirstAndSecondCard);
     displaySum.textContent = `Sum: ${sumOfFirstAndSecondCard}`;
+    displayCards.textContent = `Cards: ${firstCard}, ${secondCard}`;
 }
 
 const displayMessage = document.getElementById("message-el");
