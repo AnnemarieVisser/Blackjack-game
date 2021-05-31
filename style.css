@@ -15,4 +15,13 @@ body {
   font-style: italic;
   color: #001219;
 }
+
+#startbutton {
+  background-color: #005f73;
+  color: white;
+  border-radius: 0.2em;
+  -webkit-box-shadow: 0 0 2px black;
+          box-shadow: 0 0 2px black;
+  padding: 1em;
+}
 /*# sourceMappingURL=style.css.map */
